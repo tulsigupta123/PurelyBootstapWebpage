@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      .navbar-nav {
+        --bs-nav-link-color: #000000f0;
+        font-weight: 500;
+      }
+      h6{
+        font-size: 25px !important; 
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-info-subtle text-black ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://www.freepnglogos.com/uploads/shopping-cart-png/file-shopping-cart-with-food-clip-art-svg-wikimedia-25.png" height="50px" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Go</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide mt-2">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/87b6f22b60c3b012.jpg?q=20" class="d-block w-100" alt="image2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/fdfc83e8428467d2.jpg?q=20" class="d-block w-100" alt="image3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Heading-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h6 class="display-6 h6 mt-4 mb-7 text-center" >Building trust with Integrity. At ShopNow, every decision made is based on ethical and moral principles - no success is meaningful if it’s not achieved the right way.</h6>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-evenly pt-4">
+        <div class="col-md-4 text-center mt-3"><img src="https://cdn-icons-png.flaticon.com/512/7498/7498373.png" width="80px"  alt=""><br>
+          <p class="text-justify">The future of e-commerce is sustainable, equitable and inclusive. As we continue to drive changes across key areas of our operations, our commitment is embedded in our vision to create a positive impact, for the planet and communities.</p></div>
+        <div class="col-md-4 text-center mt-2"><img src="https://cdn-icons-png.flaticon.com/512/4127/4127193.png" width="80px" alt=""><br>
+          <p class="text-justify">E-commerce culture is steeped in fostering trust, inclusion, support, recognition and genuine care that enables Flipsters to create, innovate, and bring their best selves to work.</p>
+        </div>
+        <div class="col-md-4 text-center mt-2"><img src="https://cdn-icons-png.flaticon.com/512/10162/10162741.png" width="80px" alt=""><br>
+          <p class="text-justify">Our culture of integrity is what makes us stand out as an organization and defines who we are as a company. Our values are embedded in our vision and it helps us make a difference – to ourselves and to everyone we interact with.</p>
+        </div>
+      </div>
+      <hr>
+      <!-- Progress Bar -->
+      <div class="row d-flex justify-content-evenly pt-3">
+        <div class="col-md-4">
+          <img src="https://cdni.iconscout.com/illustration/premium/thumb/business-growth-graph-5666699-4720308.png?f=webp"  class="img-fluid">
+        </div>
+        <div class="col-md-4">
+          <h5 class="mt-3">Marketing</h5>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 79%">79%</div>
+          </div>
+          <h5 class="mt-3">Web Development</h5>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info text-dark" style="width:85%">85%</div>
+          </div>
+          <h5 class="mt-3">SEO</h5>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark" style="width: 90%">90%</div>
+          </div>
+          <h5 class="mt-3">Software Development</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 95%">95%</div>
+          </div>
+          <h5 class="mt-3">App Development</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 100%">100%</div>
+          </div>
+        </div>
+      </div>
+     
+      <!-- Form -->
+    <div class="row mt-5 justify-content-evenly pt-3 pb-5" style="background-color: #f1f1f1;">
+      <div class="col-md-4 mt-3">
+        <form>
+          <h4 class="mb-3">Contact Form</h4>
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleInputName1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-5 mt-3">
+     <h3 class="mb-3">Address</h3>
+    <p> 50/193 Gali No. 5 <br>
+      Naughara, Kanpur <br>
+    <img src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"  height="20px" alt="phone"> 9493817487</p>
+     <iframe src="https://www.google.com/maps/d/embed?mid=1dGgWD-tr6zrWoPC1ci1LZR6q6jQ&hl=en_US&ehbc=2E312F" style="width: 100%;" height="250"></iframe>
+      </div>
+    </div>
+
+    <!-- Accordian for FAQ Section -->
+    <div class="row justify-content-evenly mt-4 pb-5 bg-info-subtle" >
+      <div class="col-md-10">
+        <h3 class="text-center pt-4 mb-4">FAQ</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Can I reactivate my inactive account?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Yes. To reactivate your  account, simply log in with your registered email ID or mobile number/password combination used before deactivation. Your account data will be fully restored, default subscription settings applied.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                I've still not received the refund in my bank account.
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">If you have received a mail from us confirming your refund request, it means that the refund has been initiated. You can also contact your bank with the refund reference (ARN)/UTR number you would have received for an update on the status of your refund.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Will I get a complete refund if the item is cancelled or returned if I have paid for the order using the 'Credit Card No Cost EMI' payment option?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body pb-5">Yes, you will get a complete refund to the extent of the EMIs paid (if any) in case the order is cancelled or returned.
+
+                However, banks may charge some cancellation/refund or pre-closure charges. Please check with your respective bank for their policy for cancellations, refunds, and pre-closures.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                What is 'Smart basket'?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">To make your shopping experience better, we show you first-time suggestions for products and also products based on your previous purchases on Flipkart. You can choose to add/delete products as you wish.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid System for Footer -->
+    <div class="row justify-content-evenly bg-dark text-white mt-4 pb-2" >
+      <div class="col-md-2 mt-4">
+        <ul style="list-style: none;">
+        <li><h5 class="mb-3">ABOUT</h5></li>
+        <li>Contact Us</li>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Stories</li>
+        <li>Press</li>
+        <li>Corporate Information</li>
+      </ul>
+      </div>
+      <div class="col-md-2 mt-4">
+        <ul style="list-style: none;">
+          <li><h5 class="mb-3">CONSUMER POLICY</h5></li>
+          <li>Cancellation and Returns</li>
+          <li>Terms of Use</li>
+          <li>Security</li>
+          <li>Privacy</li>
+          <li>Site Map</li>
+          <li>EPR Compliance</li>
+          <li>Grievance Redressal</li>
+        </ul>
+      </div>
+      <div class="col-md-2 mt-4">
+        <ul style="list-style: none;">
+          <li><h5 class="mb-3">HELP</h5></li>
+          <li>Payments</li>
+          <li>Shippings</li>
+          <li>Cancellation and Returns</li>
+          <li>FAQ</li>
+          <li>Report Infringment</li>
+        </ul>
+      </div>
+      <div class="col-md-2 mt-4">
+        <ul style="list-style: none;">
+          <li><h5 class="mb-3">SOCIAL</h5></li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Youtube</li>
+          <li>Telegram</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+    <div class="row justify-content-evenly bg-dark text-white pb-3">
+      <div class="col-md-2 pt-2"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg" height="25px"> Become a Seller</div>
+      <div class="col-md-2 pt-2"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg" height="25px"> Advertise</div>
+      <div class="col-md-2 pt-2"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg" height="25px"> Gift Card</div>
+      <div class="col-md-2 pt-2"><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg" height="25px"> Help Center</div>
+      <div class="col-md-3 pt-2">© 2007-2023 ShopNow.com</div>
+    </div>
+    </div>
+    
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
